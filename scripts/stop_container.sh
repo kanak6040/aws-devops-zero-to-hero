@@ -2,5 +2,5 @@
 set -e
 
 # Stop the running container (if any)
-docker stop $(docekr ps -aq)
+docker stop $(docker ps -aq)
 echo "Hi"
